@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400|Rajdhani:300,500|Abel');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed|Open+Sans+Condensed:300,700|PT+Sans+Narrow:400,700');
+
+$font-Sans: 'Barlow Condensed', sans-serif;
+$font-title: 'Rajdhani', sans-serif;
+$font-copy: 'Lato', sans-serif;
+$font-Abel: 'Abel', sans-serif;
+
+$font-title: 'Abel', sans-serif;
+$font-copy: 'Lato', sans-serif;
+$font-Label: 'Rajdhani', sans-serif;
+
+
+@import "./containers/App/App";
+@import './containers/Card/Card';
+@import './containers/Loader/Loader';
+@import './containers/MovieContainer/MovieContainer';
+@import './components/MovieInfo/MovieInfo';
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: $font-copy;
+}
+
+.App {
+  width: 100%;
+  background-image: url(./images/stars_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  display: flex;
+  flex-direction: column;
+}
+
+.error {
+  color: #fff;
+}

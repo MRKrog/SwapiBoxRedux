@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`api should match the snapshot 1`] = `
+<div
+  className="Favorites"
+>
+  <NavLink
+    to="/Favorites"
+  >
+    <button
+      onClick={[MockFunction]}
+    >
+      View Favorites
+      <span
+        className="count"
+      >
+        10
+      </span>
+    </button>
+  </NavLink>
+</div>
+`;

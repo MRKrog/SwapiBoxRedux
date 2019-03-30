@@ -1,0 +1,19 @@
+
+.logo-images {
+  display: block;
+  position: relative;
+  margin: auto;
+  img {
+    height: 300px;
+  }
+}
+
+.loading-true {
+  animation: App-logo-spin infinite 20s linear;
+  z-index: 2;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
