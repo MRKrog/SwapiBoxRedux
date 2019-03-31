@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App App Component should match the snapshot 1`] = `
+<div
+  className="App"
+>
+  <h2
+    className="error"
+  >
+    this.props.storeMovie is not a function
+  </h2>
+  <div
+    className="MovieTitle"
+  >
+    <NavLink
+      to="/Explore"
+    >
+      <h3>
+        <img
+          alt="Star Wars"
+          src="star_emblem.png"
+        />
+      </h3>
+    </NavLink>
+    <h1>
+      <img
+        alt="Star Wars"
+        src="starwars_logo.png"
+      />
+    </h1>
+    <Favorite
+      viewAllFavs={[Function]}
+    />
+  </div>
+  <Route
+    exact={true}
+    path="/"
+    render={[Function]}
+  />
+  <Route
+    exact={true}
+    path="/Explore"
+    render={[Function]}
+  />
+  <Route
+    exact={true}
+    path="/People"
+    render={[Function]}
+  />
+  <Route
+    exact={true}
+    path="/Planets"
+    render={[Function]}
+  />
+  <Route
+    exact={true}
+    path="/Vehicles"
+    render={[Function]}
+  />
+  <Route
+    exact={true}
+    path="/Favorites"
+    render={[Function]}
+  />
+</div>
+`;

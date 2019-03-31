@@ -13,8 +13,8 @@ const Favorite = ({ favAmount, viewAllFavs }) => {
 }
 
 Favorite.propTypes = {
-  favAmount: PropTypes.number.isRequired,
-  viewAllFavs: PropTypes.func.isRequired
+  favAmount: PropTypes.number,
+  viewAllFavs: PropTypes.func
 }
 
 export default Favorite;

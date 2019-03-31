@@ -4,10 +4,10 @@ import PropTypes from 'prop-types';
 import { NavLink } from 'react-router-dom';
 
 import { saveFavAmount } from '../../actions'
-import Card from '../Card/Card';
+import Card from '../../components/Card/Card';
 
 
-class MovieContainer extends Component {
+export class MovieContainer extends Component {
   constructor(props) {
     super(props);
 
@@ -22,9 +22,11 @@ class MovieContainer extends Component {
 
   findAllFavorites = () => {
     const allFavorites = [...this.props.people, ...this.props.planets, ...this.props.vehicles]
+
     const favCards = allFavorites.filter(card => {
       return card.favorite === true;
     })
+    console.log(favCards);
     return favCards.length
   }
 

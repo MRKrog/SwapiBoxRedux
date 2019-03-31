@@ -15,7 +15,7 @@ export const cleanPeople = (peopleData) => {
 }
 
 export const cleanPlanets = (data) => {
-  const cleanData = data.map(planet => {
+  const planets = data.map(planet => {
     return {
       name: planet.name,
       terrain: planet.terrain,
@@ -26,11 +26,11 @@ export const cleanPlanets = (data) => {
       favorite: false
     }
   })
-  return cleanData;
+  return planets;
 }
 
 export const cleanVehicles = (data) => {
-  const vehicleResults = data.map(vehicle => {
+  const vehicles = data.map(vehicle => {
     return {
       name: vehicle.name,
       model: vehicle.model,
@@ -40,5 +40,5 @@ export const cleanVehicles = (data) => {
       favorite: false
     }
   })
-  return vehicleResults;
+  return vehicles;
 }

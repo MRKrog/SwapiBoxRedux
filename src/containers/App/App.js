@@ -17,7 +17,7 @@ import Loader from '../../components/Loader/Loader';
 import logo from '../../images/starwars_logo.png';
 import emblem from '../../images/star_emblem.png';
 
-class App extends Component {
+export class App extends Component {
   constructor() {
     super();
     this.state = {
@@ -45,6 +45,7 @@ class App extends Component {
 
   fetchPeople = async (category) => {
     const url = `https://swapi.co/api/people`;
+
     if(!this.props.people.length) {
       try {
         this.handleLoadStart()
@@ -189,6 +190,10 @@ class App extends Component {
   }
 }
 
+App.propTypes = {
+  storeMovie: PropTypes.func,
+}
+
 export const mapStateToProps = (state) => ({
   movie: state.movie,
   people: state.people,
@@ -203,10 +208,5 @@ export const mapDispatchToProps = (dispatch) => ({
   storePlanets: (planets) => dispatch(savePlanets(planets)),
   storeVehicles: (vehicles) => dispatch(saveVehicles(vehicles)),
 })
-
-App.propTypes = {
-  storeMovie: PropTypes.func.isRequired,
-}
-
 
 export default connect(mapStateToProps, mapDispatchToProps)(App)

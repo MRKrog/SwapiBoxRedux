@@ -1,4 +1,5 @@
 import { fetchAnything } from './fetchAnything';
+import { getResidents } from './fetchResidents';
 
 export const fetchSpecies = async (peopleData) => {
   const peopleResults = peopleData.map(async person => {
@@ -25,12 +26,4 @@ export const getAllPlanets = async (data) => {
     return result;
   })
   return Promise.all(planetsResults);
-}
-
-const getResidents = (data) => {
-  const residents = data.map(resident => {
-    return fetchAnything(resident)
-      .then(result => (result.name))
-  })
-  return Promise.all(residents)
 }

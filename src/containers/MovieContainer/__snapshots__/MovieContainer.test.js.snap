@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MovieContainer MovieContainer Component should Match the Snapshot 1`] = `
+<div
+  className="MovieContainer"
+>
+  <section
+    className="MovieButtons"
+  >
+    <NavLink
+      to="/People"
+    >
+      <button
+        className="btnActive"
+        onClick={[Function]}
+      >
+        People
+      </button>
+    </NavLink>
+    <NavLink
+      to="/Planets"
+    >
+      <button
+        className=""
+        onClick={[Function]}
+      >
+        Planets
+      </button>
+    </NavLink>
+    <NavLink
+      to="/Vehicles"
+    >
+      <button
+        className=""
+        onClick={[Function]}
+      >
+        Vehicles
+      </button>
+    </NavLink>
+  </section>
+  <div
+    className="MovieInfoContainer"
+  >
+    <section
+      className="MovieCardContainer"
+    >
+      <div
+        className="MovieTitleDisplay"
+      >
+        <h3>
+          people
+        </h3>
+      </div>
+      <section
+        className="MovieCardsDisplay"
+      >
+        <Card
+          handleFavBtn={[Function]}
+          info={
+            Object {
+              "category": "people",
+              "favorite": false,
+              "homeworld": "Tatooine",
+              "language": "Galactic Basic",
+              "name": "Luke Skywalker",
+              "population": "200000",
+              "species": "Human",
+            }
+          }
+          key="0"
+        />
+        <Card
+          handleFavBtn={[Function]}
+          info={
+            Object {
+              "category": "people",
+              "favorite": false,
+              "homeworld": "Tatooine",
+              "language": "n/a",
+              "name": "C-3PO",
+              "population": "200000",
+              "species": "Droid",
+            }
+          }
+          key="1"
+        />
+      </section>
+    </section>
+    <section
+      className="shadowBottom"
+    />
+  </div>
+</div>
+`;
