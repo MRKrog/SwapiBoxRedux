@@ -45,7 +45,6 @@ export class App extends Component {
 
   fetchPeople = async (category) => {
     const url = `https://swapi.co/api/people`;
-
     if(!this.props.people.length) {
       try {
         this.handleLoadStart()
