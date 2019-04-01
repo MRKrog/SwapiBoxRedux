@@ -2,14 +2,12 @@
 
 ## Descriptions:
 
-This is a Web application that allows the user to their favorite star wars information. These include People, Planets, and Vehicles. The user also has the ability to update and favorite cards. 
+This is a Web application that allows the user to their favorite star wars information. These include People, Planets, and Vehicles. The user also has the ability to update and favorite cards.
 
 ## Preview:
 
-<img src="./ReadMeImage/one.png" alt="alt text" width="whatever" height="whatever">
-<img src="./ReadMeImage/two.png" alt="alt text" width="whatever" height="whatever">
-<img src="./ReadMeImage/three.png" alt="alt text" width="whatever" height="whatever">
-<img src="./ReadMeImage/four.png" alt="alt text" width="whatever" height="whatever">
+<img src="./ReadMeImage/People.jpg" alt="alt text" width="whatever" height="whatever">
+<img src="./ReadMeImage/favorites.jpg" alt="alt text" width="whatever"
 
 
 ## Getting Started:

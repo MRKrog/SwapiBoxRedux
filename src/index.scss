@@ -13,8 +13,8 @@ $font-Label: 'Rajdhani', sans-serif;
 
 
 @import "./containers/App/App";
-@import './containers/Card/Card';
-@import './containers/Loader/Loader';
+@import './components/Card/Card';
+@import './components/Loader/Loader';
 @import './containers/MovieContainer/MovieContainer';
 @import './components/MovieInfo/MovieInfo';
 
